@@ -37,8 +37,8 @@ jobs:
 
                   git clone https://${{secrets.AWS_GITHUB_USER}}:${{secrets.AWS_GITHUB_TOKEN}}@github.com/Vinaykurra7454/node-js-githubs
 
-                  cd nodejs-gitops
-
+                  cd node-js-githubs
+                  
                   git config user.name "sridhar"
                   git config user.email "sridhar@abc.com"
 
